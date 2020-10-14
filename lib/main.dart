@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:manager_state_ecommerce/utils/app_routes.dart';
+import 'package:manager_state_ecommerce/views/product_details_screen.dart';
 import 'package:manager_state_ecommerce/views/products_overview.dart';
 
 void main() {
@@ -12,10 +14,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
+        accentColor: Colors.purpleAccent,
+        fontFamily: 'Lato',
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: ProductOverviewScreen(),
+      routes: {
+        AppRoutes.productDetailRoute: (_) => ProductDetailScreen(),
+      },
     );
   }
 }
