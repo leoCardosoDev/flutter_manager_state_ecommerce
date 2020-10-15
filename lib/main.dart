@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:manager_state_ecommerce/providers/cart/cart.dart';
 import 'package:manager_state_ecommerce/providers/products.dart';
 import 'package:manager_state_ecommerce/utils/app_routes.dart';
-import 'package:manager_state_ecommerce/views/product_details_screen.dart';
-import 'package:manager_state_ecommerce/views/products_overview_screen.dart';
+import 'package:manager_state_ecommerce/views/products/product_details_screen.dart';
+import 'package:manager_state_ecommerce/views/products/products_overview_screen.dart';
 import 'package:provider/provider.dart';
 
 void main() {
