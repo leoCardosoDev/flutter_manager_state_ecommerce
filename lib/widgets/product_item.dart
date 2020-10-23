@@ -44,7 +44,6 @@ class ProductItem extends StatelessWidget {
           trailing: IconButton(
             onPressed: () {
               cart.addItem(product);
-              print(cart.itemCount);
             },
             color: Theme.of(context).accentColor,
             icon: Icon(Icons.shopping_cart),
